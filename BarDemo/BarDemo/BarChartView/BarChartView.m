@@ -116,5 +116,15 @@
     return UIEdgeInsetsMake(0,self.barSpace,0,self.barSpace);
 }
 
+// 两行cell之间的间距
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {
+    return self.barSpace;
+}
+
+// 两列cell之间的间距
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section {
+    return self.barSpace;
+}
+
 
 @end
