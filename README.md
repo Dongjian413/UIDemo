@@ -1,2 +1,3 @@
 # UIDemo
 一些关于UI的小demo
+1、封装了一个柱状图的demo，支持单个柱子添加动画，支持一个柱子由多个子柱组合的叠加模式，使用UICollectionView实现
