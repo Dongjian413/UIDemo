@@ -1,7 +1,7 @@
 # UIDemo
 一些关于UI的小demo
 
-1、封装了一个柱状图的demo，支持单个柱子添加动画，支持一个柱子由多个子柱组合的叠加模式，使用UICollectionView实现
+1、封装了一个柱状图的demo【代码详见BarDemo文件夹，欢迎各位大佬继续扩展】，支持单个柱子添加动画，支持一个柱子由多个子柱组合的叠加模式，使用UICollectionView实现
 
 ![Image text](https://github.com/Dongjian413/UIDemo/blob/master/imgs/%E6%9F%B1%E7%8A%B6%E5%9B%BE.png)
 
