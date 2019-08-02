@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  BarDemo
+//
+//  Created by 东健 on 2019/8/2.
+//  Copyright © 2019 happy. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "Masonry.h"
+
+///弱引用
+#define weakSelfs __weak __typeof(&*self) weakSelf =self;
+
+#endif /* PrefixHeader_pch */
